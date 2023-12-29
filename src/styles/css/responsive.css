@@ -1,0 +1,24 @@
+@media screen and (max-width: 991px) {
+    .inputStyle {
+      min-width: 54px;
+      height: 54px;
+    }
+  }
+@media screen and (max-width: 575px) {
+  .inputStyle {
+    min-width: 43px;
+    height: 43px;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 480px) {
+    .inputStyle {
+        min-width: 30px;
+        height: 30px;
+        font-size: 18px;
+      }
+      .otpspace{
+        width: 10px;
+    }
+    
+  }

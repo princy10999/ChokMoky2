@@ -1,0 +1,592 @@
+@font-face {
+  font-family: "League Spartan";
+  src: url("../fonts/LeagueSpartan-Black.woff2") format("woff2"),
+    url("../fonts/LeagueSpartan-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "League Spartan";
+  src: url("../fonts/LeagueSpartan-Bold.woff2") format("woff2"),
+    url("../fonts/LeagueSpartan-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "League Spartan";
+  src: url("../fonts/LeagueSpartan-ExtraBold.woff2") format("woff2"),
+    url("../fonts/LeagueSpartan-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "League Spartan";
+  src: url("../fonts/LeagueSpartan-ExtraLight.woff2") format("woff2"),
+    url("../fonts/LeagueSpartan-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "League Spartan";
+  src: url("../fonts/LeagueSpartan-Light.woff2") format("woff2"),
+    url("../fonts/LeagueSpartan-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "League Spartan";
+  src: url("../fonts/LeagueSpartan-Medium.woff2") format("woff2"),
+    url("../fonts/LeagueSpartan-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "League Spartan";
+  src: url("../fonts/LeagueSpartan-Regular.woff2") format("woff2"),
+    url("../fonts/LeagueSpartan-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "League Spartan";
+  src: url("../fonts/LeagueSpartan-SemiBold.woff2") format("woff2"),
+    url("../fonts/LeagueSpartan-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "League Spartan";
+  src: url("../fonts/LeagueSpartan-Thin.woff2") format("woff2"),
+    url("../fonts/LeagueSpartan-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "League Spartan";
+  src: url("../fonts/LeagueSpartan-Thin.woff2") format("woff2"),
+    url("../fonts/LeagueSpartan-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../fonts/Nunito-Black.woff2") format("woff2"),
+    url("../fonts/Nunito-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../fonts/Nunito-BlackItalic.woff2") format("woff2"),
+    url("../fonts/Nunito-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../fonts/Nunito-Bold.woff2") format("woff2"),
+    url("../fonts/Nunito-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../fonts/Nunito-BoldItalic.woff2") format("woff2"),
+    url("../fonts/Nunito-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../fonts/Nunito-ExtraBold.woff2") format("woff2"),
+    url("../fonts/Nunito-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../fonts/Nunito-ExtraBoldItalic.woff2") format("woff2"),
+    url("../fonts/Nunito-ExtraBoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../fonts/Nunito-ExtraLight.woff2") format("woff2"),
+    url("../fonts/Nunito-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../fonts/Nunito-ExtraLightItalic.woff2") format("woff2"),
+    url("../fonts/Nunito-ExtraLightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../fonts/Nunito-Italic.woff2") format("woff2"),
+    url("../fonts/Nunito-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../fonts/Nunito-Light.woff2") format("woff2"),
+    url("../fonts/Nunito-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../fonts/Nunito-LightItalic.woff2") format("woff2"),
+    url("../fonts/Nunito-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../fonts/Nunito-ExtraLightItalic.woff2") format("woff2"),
+    url("../fonts/Nunito-ExtraLightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../fonts/Nunito-Medium.woff2") format("woff2"),
+    url("../fonts/Nunito-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../fonts/Nunito-MediumItalic.woff2") format("woff2"),
+    url("../fonts/Nunito-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../fonts/Nunito-Regular.woff2") format("woff2"),
+    url("../fonts/Nunito-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../fonts/Nunito-SemiBold.woff2") format("woff2"),
+    url("../fonts/Nunito-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../fonts/Nunito-SemiBoldItalic.woff2") format("woff2"),
+    url("../fonts/Nunito-SemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-Black.woff2") format("woff2"),
+    url("../fonts/PlayfairDisplay-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../fonts/Nunito-ExtraLight.woff2") format("woff2"),
+    url("../fonts/Nunito-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-BlackItalic.woff2") format("woff2"),
+    url("../fonts/PlayfairDisplay-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-Black.woff2") format("woff2"),
+    url("../fonts/PlayfairDisplay-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-BlackItalic.woff2") format("woff2"),
+    url("../fonts/PlayfairDisplay-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-Bold.woff2") format("woff2"),
+    url("../fonts/PlayfairDisplay-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-BoldItalic.woff2") format("woff2"),
+    url("../fonts/PlayfairDisplay-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-ExtraBold.woff2") format("woff2"),
+    url("../fonts/PlayfairDisplay-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-ExtraBoldItalic.woff2") format("woff2"),
+    url("../fonts/PlayfairDisplay-ExtraBoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-Italic.woff2") format("woff2"),
+    url("../fonts/PlayfairDisplay-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-Medium.woff2") format("woff2"),
+    url("../fonts/PlayfairDisplay-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-Italic.woff2") format("woff2"),
+    url("../fonts/PlayfairDisplay-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-MediumItalic.woff2") format("woff2"),
+    url("../fonts/PlayfairDisplay-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-Regular.woff2") format("woff2"),
+    url("../fonts/PlayfairDisplay-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-SemiBold.woff2") format("woff2"),
+    url("../fonts/PlayfairDisplay-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-SemiBoldItalic.woff2") format("woff2"),
+    url("../fonts/PlayfairDisplay-SemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Sorts Mill Goudy";
+  src: url("../fonts/SortsMillGoudy-Italic.woff2") format("woff2"),
+    url("../fonts/SortsMillGoudy-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Sorts Mill Goudy";
+  src: url("../fonts/SortsMillGoudy-Regular.woff2") format("woff2"),
+    url("../fonts/SortsMillGoudy-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-Regular.woff2") format("woff2"),
+    url("../fonts/PlayfairDisplay-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+/* body {
+  padding: 0px !important;
+  margin: 0px !important;
+  overflow-x: hidden;
+  animation: mymove 5s;
+  animation-delay: 6.7s;
+  
+} */
+
+
+ul {
+  list-style: none;
+  margin: 0px !important;
+}
+
+a:focus,
+:focus {
+  outline: none !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+a img {
+  border: none;
+}
+
+a:hover {
+  outline: none !important;
+  text-decoration: none;
+}
+
+a:active {
+  outline: none !important;
+  text-decoration: none;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+.btn.focus,
+.btn:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+/* .swiper-button-next,
+.swiper-button-prev {
+  color: rgb(0 0 0 / 38%) !important;
+}
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: rgb(0 0 0 / 58%) !important;
+} */
+.inputStyle {
+  border: 1px solid #cacaca;
+  border-radius: 2px;
+  min-width: 59.3px;
+  height: 57px;
+  font-size: 27px;
+  line-height: 25px;
+  color: #35364f;
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 400;
+  background-color: #ffffff;
+}
+
+.focusStyle {
+  border: 1px solid #cacaca;
+  background-color: white;
+}
+
+.otpspace {
+  width: 22px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #000;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: rgb(0 0 0 / 58%);
+}
+
+.svg {
+  animation: svg 3s !important;
+  animation-delay: 4s !important;
+}
+
+@keyframes svg {
+  15% {
+    opacity: 1;
+  }
+
+  15% {
+    opacity: 0.9;
+  }
+
+  30% {
+    opacity: 0.75;
+  }
+
+  45% {
+    opacity: 0.6;
+  }
+
+  60% {
+    opacity: 0.45;
+  }
+
+  75% {
+    opacity: 0.3;
+  }
+
+  90% {
+    opacity: 0.15;
+  }
+
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}
+
+body {
+  padding: 0px !important;
+  margin: 0px !important;
+  overflow-x: hidden !important;
+  animation: mymove 4s !important;
+  animation-delay: 6.2s !important;
+}
+
+@keyframes mymove {
+  15% {
+    opacity: 0.1;
+  }
+
+  30% {
+    opacity: 0.25;
+  }
+
+  45% {
+    opacity: 0.4;
+  }
+
+  60% {
+    opacity: 0.55;
+  }
+
+  75% {
+    opacity: 0.7;
+  }
+
+  90% {
+    opacity: 0.85;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
